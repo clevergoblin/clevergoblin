@@ -24,7 +24,10 @@ echo &amp;#39;theme = &amp;#34;m10c&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.to
 hugo new post/blog.md 文章开头如下： title: &amp;ldquo;Blog&amp;rdquo; date: 2021-02-22T12:12:52+08:00 draft: false
 可以在编辑器中打开进行编写，编写完成之后把draft改为false(为true视为草稿，将不会被部署)
 4.启动Hugo服务器 hugo server 在启用草稿的情况下启动服务器使用下面的命令
-hugo server -D </description>
+hugo server -D 这样就可以在本地看到自己的博客了
+5.将个人博客部署到Github 在Github上新建仓库，执行下面的命令会生成public目录，命令中的地址更换为自己的
+hugo --theme=m10c --baseUrl=&amp;#34;https://clevergoblin.github.io/&amp;#34; --buildDrafts 进入public目录，添加远程地址，推送博客
+git init git add . git commit -m &amp;#34;个人博客&amp;#34; git remote add origin https://github.</description>
     </item>
     
     <item>
