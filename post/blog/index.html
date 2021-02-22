@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Centos7的Hugo搭建和使用 // My New Hugo Site</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.81.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://clevergoblin.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Centos7的Hugo搭建和使用"/>
+<meta name="twitter:description" content="1.下载Hugo 1.wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz
+2.到Github直接下载hugo_0.81.0_Linux-64bit.tar.gz
+2.解压 tar -zxf hugo_0.81.0_Linux-64bit.tar.gz sudo cp ./hugo /usr/local/bin 查看是否安装成功
+hugo version 3.Hugo的使用 新建网站
+./hugo new site firstsite 添加主题，进入刚才创建的站点
+git init git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 主题可以到Hugo主题去找
+然后把主题配置到配置文件中
+echo &#39;theme = &#34;m10c&#34;&#39; &gt;&gt; config.toml 接下来就可以新建文章编写了
+hugo new post/blog.md 文章开头如下： title: &ldquo;Blog&rdquo; date: 2021-02-22T12:12:52&#43;08:00 draft: false
+可以在编辑器中打开进行编写，编写完成之后把draft改为false(为true视为草稿，将不会被部署)
+4.启动Hugo服务器 hugo server 在启用草稿的情况下启动服务器使用下面的命令
+hugo server -D "/>
+
+    <meta property="og:title" content="Centos7的Hugo搭建和使用" />
+<meta property="og:description" content="1.下载Hugo 1.wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz
+2.到Github直接下载hugo_0.81.0_Linux-64bit.tar.gz
+2.解压 tar -zxf hugo_0.81.0_Linux-64bit.tar.gz sudo cp ./hugo /usr/local/bin 查看是否安装成功
+hugo version 3.Hugo的使用 新建网站
+./hugo new site firstsite 添加主题，进入刚才创建的站点
+git init git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 主题可以到Hugo主题去找
+然后把主题配置到配置文件中
+echo &#39;theme = &#34;m10c&#34;&#39; &gt;&gt; config.toml 接下来就可以新建文章编写了
+hugo new post/blog.md 文章开头如下： title: &ldquo;Blog&rdquo; date: 2021-02-22T12:12:52&#43;08:00 draft: false
+可以在编辑器中打开进行编写，编写完成之后把draft改为false(为true视为草稿，将不会被部署)
+4.启动Hugo服务器 hugo server 在启用草稿的情况下启动服务器使用下面的命令
+hugo server -D " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://clevergoblin.github.io/post/blog/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-02-22T12:12:52&#43;08:00" />
+<meta property="article:modified_time" content="2021-02-22T12:12:52&#43;08:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://clevergoblin.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>My New Hugo Site</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Centos7的Hugo搭建和使用</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Feb 22, 2021
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h2 id="1下载hugo">1.下载Hugo</h2>
+<p>1.<code>wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz</code></p>
+<p>2.到<a href="https://github.com/gohugoio/hugo/releases">Github</a>直接下载hugo_0.81.0_Linux-64bit.tar.gz</p>
+<h2 id="2解压">2.解压</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tar -zxf hugo_0.81.0_Linux-64bit.tar.gz
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo cp ./hugo /usr/local/bin
+</code></pre></div><p>查看是否安装成功</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo version
+</code></pre></div><h2 id="3hugo的使用">3.Hugo的使用</h2>
+<p>新建网站</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./hugo new site firstsite
+</code></pre></div><p>添加主题，进入刚才创建的站点</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+</code></pre></div><p>主题可以到<a href="https://themes.gohugo.io/">Hugo主题</a>去找</p>
+<p>然后把主题配置到配置文件中</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#39;theme = &#34;m10c&#34;&#39;</span> &gt;&gt; config.toml
+</code></pre></div><p>接下来就可以新建文章编写了</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new post/blog.md
+</code></pre></div><p>文章开头如下：
+title: &ldquo;Blog&rdquo;
+date: 2021-02-22T12:12:52+08:00
+draft: false</p>
+<p>可以在编辑器中打开进行编写，编写完成之后把draft改为false(为true视为草稿，将不会被部署)</p>
+<h2 id="4启动hugo服务器">4.启动Hugo服务器</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server
+</code></pre></div><p>在启用草稿的情况下启动服务器使用下面的命令</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server -D
+</code></pre></div>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
