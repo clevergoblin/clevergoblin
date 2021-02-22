@@ -18,7 +18,7 @@
 2.解压 tar -zxf hugo_0.81.0_Linux-64bit.tar.gz sudo cp ./hugo /usr/local/bin 查看是否安装成功
 hugo version 3.Hugo的使用 新建网站
 ./hugo new site firstsite 添加主题，进入刚才创建的站点
-git init git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 主题可以到Hugo主题去找
+cd firstsite git init git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 主题可以到Hugo主题去找
 然后把主题配置到配置文件中
 echo &amp;#39;theme = &amp;#34;m10c&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml 接下来就可以新建文章编写了
 hugo new post/blog.md 文章开头如下： title: &amp;ldquo;Blog&amp;rdquo; date: 2021-02-22T12:12:52+08:00 draft: false
